@@ -6,3 +6,7 @@ Pour realiser se tp nous allons creer un dossier toi et dans se dossier nous all
 Pour se faire nous allons utiliser la commande :
 
   ```docker inspect (id du conteneur)``` 
+
+* Ensuite nous allons chercher l'onglet "Mounts": 
+	* ensuite sources: 
+    * ce qui nous donnera l'emplacement du repertoire toi 
