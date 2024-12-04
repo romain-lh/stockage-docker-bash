@@ -9,7 +9,7 @@ Pour se faire nous allons utiliser la commande :
 
 * Ensuite nous allons chercher l'onglet "Mounts": 
 	* ensuite sources:""
-    * ensuite il nous suffira d'ajouter /data/"nom de l'utilisateur"/files ce qui nous indiquera l'emplacement de notre repertoire toi 
+    * il nous suffira d'ajouter /data/"nom de l'utilisateur"/files ce qui nous indiquera l'emplacement de notre repertoire toi 
     * exemple
  ``` 
  "Mounts": [
