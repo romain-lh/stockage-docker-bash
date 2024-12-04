@@ -12,6 +12,8 @@ if [ ! -d "$SOURCE_DIR" ]; then
     exit 1
 fi
 
+# Créer le répertoire de sauvegarde s'il n'existe pas
+mkdir -p "$BACKUP_DIR"
 
 # Compresser le contenu du répertoire source dans un fichier ZIP
 zip -r "$BACKUP_FILE" "$SOURCE_DIR" > /dev/null 2>&1
