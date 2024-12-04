@@ -16,7 +16,8 @@ Pour se faire nous allons utiliser la commande :
             {
                 "Type": "volume",
                 "Name": "f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618",
-                "Source": "/var/lib/docker/volumes/f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618/_data",```
+                "Source": "/var/lib/docker/volumes/f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618/_data",
+```
                 
 * Ensuite nous allons lancer notre script, pour ce faire nous allons dans un premier temps lui donner des droits 
 
