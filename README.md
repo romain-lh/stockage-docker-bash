@@ -16,4 +16,23 @@ Pour se faire nous allons utiliser la commande :
             {
                 "Type": "volume",
                 "Name": "f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618",
-                "Source": "/var/lib/docker/volumes/	f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618/_data",```
+                "Source": "/var/lib/docker/volumes/f8664c7c6d65501336552d47a2d7d9f6244f0a388c38bb574d2a6f0437949618/_data",```
+                
+* Ensuite nous allons lancer notre script, pour ce faire nous allons dans un premier temps lui donner des droits 
+
+      ``` chmod 777 sauvegarde script.sh```
+    * puis nous allons le lancer avec la commande
+      ``` ./ script sauvegarde.sh ```
+    * ceci nous permettra de verifier si notre script fonctionne 
+ 
+* pour automatiser ceci nous allons utiliser : 
+
+	```crontab -e ```
+    * et nous allons modifier la ligne suivante:
+    
+    ``` 45 23 * * 1 ~/backup_owncloud/backup_toi.sh ```
+    
+    * ceci va executer le script tout les jours a 23h45 
+    
+    
+
