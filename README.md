@@ -31,7 +31,7 @@ Pour se faire nous allons utiliser la commande :
 	```crontab -e ```
     * et nous allons modifier la ligne suivante:
     
-    ``` 45 23 * * 1 ~/backup_owncloud/backup_toi.sh ```
+      ``` 45 23 * * 1 ~/backup_owncloud/backup_toi.sh ```
     
     * ceci va executer le script tout les jours a 23h45
  
