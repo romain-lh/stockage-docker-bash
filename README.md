@@ -33,7 +33,12 @@ Pour se faire nous allons utiliser la commande :
     
     ``` 45 23 * * 1 ~/backup_owncloud/backup_toi.sh ```
     
-    * ceci va executer le script tout les jours a 23h45 
+    * ceci va executer le script tout les jours a 23h45
+ 
+    * nous allons par la suite ajouter un autre ligne sur le crontab -e pour transférer le fichier vers un serveur ftp
+ 
+      ``` 50 23 * * 1 ~/FTP.sh ```
+    * Ceci nous permettra de transférer le fichier zip dans notre serveur ftp a 23h50.
     
     
 
