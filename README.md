@@ -22,6 +22,7 @@ Pour se faire nous allons utiliser la commande :
 * Ensuite nous allons lancer notre script, pour ce faire nous allons dans un premier temps lui donner des droits 
 
       ``` chmod 777 sauvegarde script.sh```
+  
     * puis nous allons le lancer avec la commande
       ``` ./ script sauvegarde.sh ```
     * ceci nous permettra de verifier si notre script fonctionne 
